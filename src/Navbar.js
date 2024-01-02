@@ -12,19 +12,29 @@ function Navbar() {
       <img src={Logo} alt="Packaged Legacy"></img>
       <ul className={navOpen ? "nav-list" : "show-list"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link onClick={() => setNavOpen((open) => !open)} to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/about">About Us</Link>
+          <Link onClick={() => setNavOpen((open) => !open)} to="/about">
+            About Us
+          </Link>
         </li>
         <li>
-          <Link to="/why">Why South Yorkshire?</Link>
+          <Link onClick={() => setNavOpen((open) => !open)} to="/why">
+            Why South Yorkshire?
+          </Link>
         </li>
         <li>
-          <Link to="/download">Download our Guide</Link>
+          <Link onClick={() => setNavOpen((open) => !open)} to="/download">
+            Download our Guide
+          </Link>
         </li>
         <li>
-          <Link to="/faq">FAQs</Link>
+          <Link onClick={() => setNavOpen((open) => !open)} to="/faq">
+            FAQs
+          </Link>
         </li>
       </ul>
       <button className={navOpen ? "" : "arrow-button button-rotate"}>
