@@ -1,4 +1,5 @@
 import ComplianceCard from "./Compliance_card";
+import Question from "./Question";
 
 export default function Policies() {
   return (
@@ -38,7 +39,77 @@ export default function Policies() {
         </div>
         <div className="policies-top-right">
           <div className="container">
-            <h2>Privacy & personal data</h2>
+            <h2>Privacy & Personal Data</h2>
+            <div className="privacy-container">
+              <Question
+                question="1. Introduction"
+                answer="This Privacy Policy outlines the practices of Packaged Legacy regarding the collection, use, disclosure, and protection of personal information when you use our website [www.packagedlegacy.co.uk] and related services."
+              />
+              <Question
+                question="2. Information We Collect"
+                answer="a. Personal Information: We may collect personal information that you provide directly to us, such as your name, email address, postal address, phone number, and other contact information when you interact with our Website or services.
+
+b. Usage and Log Data: We collect information about your usage of our Website and may collect log data, including your IP address, browser type, operating system, referral source, and pages visited.
+
+c. Cookies and Tracking Technologies: We use cookies and similar tracking technologies to gather information about your interactions with our Website. You can control cookies through your browser settings."
+              />
+              <Question
+                question="3. Use of Information"
+                answer="We may use the collected information for the following purposes:
+
+a. To provide, maintain, and improve our services.
+
+b. To send newsletters, updates, and marketing communications, where permitted by law.
+
+c. To respond to your inquiries, comments, or requests.
+
+d. To monitor and analyze usage patterns, and to conduct research and analysis to improve our services.
+
+"
+              />
+              <Question
+                question="4. Sharing of Information"
+                answer="
+
+We do not sell or rent your personal information to third parties. We may share your information with:
+
+a. Service Providers: We may share your information with third-party service providers who assist us in operating our Website and services.
+
+b. Legal Compliance: We may disclose your information if required by law, governmental request, or as necessary to protect our rights or the rights of others."
+              />
+              <Question
+                question="5. Your Choices"
+                answer="
+
+You have the following rights regarding your personal information:
+
+a. Access: You can request access to the personal information we hold about you.
+
+b. Correction: You can request that we correct inaccuracies in your personal information.
+
+c. Deletion: You can request that we delete your personal information, subject to legal requirements.
+
+d. Opt-Out: You can opt-out of receiving marketing communications from us by following the instructions in such communications."
+              />
+              <Question
+                question="6. Security"
+                answer="
+
+We use reasonable administrative, technical, and physical measures to protect your personal information. However, no data transmission over the internet is completely secure, and we cannot guarantee the security of your information."
+              />
+              <Question
+                question="7. Changes to this Policy."
+                answer="
+
+We may update this Privacy Policy from time to time. The updated policy will be posted on our Website with the effective date"
+              />
+              <Question
+                question="8. Contact Us"
+                answer="
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us at services@packagedlegacy.co.uk."
+              />
+            </div>
           </div>
         </div>
       </div>

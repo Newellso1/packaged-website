@@ -454,7 +454,7 @@ footer > p {
   place-content: center;
   place-items: center;
   width: 50vw;
-  min-height: 50vh;
+
   background-image: url(./background.png);
   background-size: cover;
   background-repeat: none;
@@ -480,6 +480,11 @@ footer > p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.privacy-container {
+  overflow-y: scroll;
+  height: 45.5em;
 }
 
 .compliance_card {

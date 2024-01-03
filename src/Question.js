@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleDown } from "@fortawesome/fontawesome-free-solid";
 
-export default function Question({ question, answer }) {
+export default function Question({ question = "Question", answer = "Answer" }) {
   const [isOpen, setIsOpen] = useState("false");
 
   return (
