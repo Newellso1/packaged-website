@@ -7,6 +7,7 @@ import Download from "./Download";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Faq from "./Faq";
+import Policies from "./Policies";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/why" element={<Why />} />
         <Route path="/download" element={<Download />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/policies" element={<Policies />} />
       </Routes>
       <Footer />
     </Router>

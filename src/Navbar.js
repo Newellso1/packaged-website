@@ -36,6 +36,11 @@ function Navbar() {
             FAQs
           </Link>
         </li>
+        <li>
+          <Link onClick={() => setNavOpen((open) => !open)} to="/policies">
+            Policies & Procedures
+          </Link>
+        </li>
       </ul>
       <button className={navOpen ? "" : "arrow-button button-rotate"}>
         <FontAwesomeIcon

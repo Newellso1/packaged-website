@@ -441,6 +441,65 @@ footer > p {
   opacity: 1;
 }
 
+/* Policies specific */
+
+.policies-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.policies-top-left,
+.policies-top-right {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  width: 50vw;
+  min-height: 50vh;
+  background-image: url(./background.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.policies-top-left > .container {
+  margin: 1em 4em;
+  background-color: #52457273;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+.policies-top-right > .container {
+  margin: 1em 4em;
+  background-color: #52457273;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+.compliance-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.compliance_card {
+  background-color: white;
+  margin: 2em;
+  min-width: 8em;
+  width: 12em;
+  color: black;
+  padding: 1em;
+  border-radius: 1em;
+  opacity: 0.8;
+  box-shadow: 0 0 10px #262035;
+  transition: all ease 400ms;
+}
+
+.compliance_card:hover {
+  opacity: 1;
+  box-shadow: 0 0 15px #171420;
+}
+
 @media screen and (max-width: 900px) {
   nav {
     min-height: 3em;
